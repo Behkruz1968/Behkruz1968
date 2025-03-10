@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Top Navbar -->
+    <div class="bg-gray-200 text-gray-600 text-sm py-2 px-4 flex justify-between">
+        <div class="space-x-4 hidden md:flex">
+            <a href="#">Для юридических лиц</a>
+            <a href="#">О компании</a>
+            <a href="#">Оплата и доставка</a>
+            <a href="#">Акции и бонусные баллы</a>
+            <a href="#">Площадки</a>
+            <a href="#">Блог</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="space-x-4">
+            <span>+7 909 993 89 70</span>
+            <span>+7 495 120-21-50</span>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <div class="text-xl font-bold">CANAPE CLUB</div>
+            <button class="bg-orange-500 text-white px-4 py-2 rounded-lg">Каталог</button>
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+            <span>Пн-Пт 08:00-20:00</span>
+            <span>Сб-Вс 09:00-19:00</span>
+            <input type="text" placeholder="Искать товары" class="border px-2 py-1 rounded">
+        </div>
+        <div class="hidden md:flex space-x-4 text-orange-500 text-xl">
+            <span>🔍</span>
+            <span>🛒</span>
+            <span>❤️</span>
+            <span>👤</span>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md p-4 flex justify-center space-x-6 text-gray-600 text-lg">
+        <a href="#" class="hover:text-gray-800">Фуршетные наборы</a>
+        <a href="#" class="hover:text-gray-800">Хиты</a>
+        <a href="#" class="hover:text-gray-800">Скидки</a>
+        <a href="#" class="hover:text-gray-800 text-yellow-500 border-b-2 border-yellow-500">Кейтеринг</a>
+        <a href="#" class="hover:text-gray-800">Доставка домашней еды</a>
+    </nav>
+
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-4 mt-6">
+        <h1 class="text-2xl font-bold text-gray-800">Салат Оливье с красной рыбой и икрой тобико</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div>
+                <img src="./Screenshot 2025-03-10 153055.png" alt="Product Image" class="w-full h-auto rounded-lg object-cover">
+            </div>
+            <div>
+                <p class="text-gray-600">Вес: 780 г</p>
+                <div class="flex gap-2 mt-2">
+                    <button class="px-4 py-2 border rounded-md">120 г</button>
+                    <button class="px-4 py-2 border rounded-md">250 г</button>
+                </div>
+                <p class="text-lg font-semibold mt-4">1 890 ₽ <span class="line-through text-gray-500">2 000 ₽</span></p>
+                <div class="flex gap-4 mt-4">
+                    <button class="bg-green-500 text-white px-4 py-2 rounded-lg">Заказать в 1 клик</button>
+                    <button class="bg-orange-500 text-white px-4 py-2 rounded-lg">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">Состав</h2>
+            <p class="text-gray-600">Картофель, морковь, огурцы соленые, горошек зеленый, яйцо, кета с/с, икра черная тобико, майонез.</p>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold">С этим товаром покупают:</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                <div class="bg-white shadow-md rounded-lg p-2">
+                    <img src="./Фото.png" alt="Related Product" class="w-full h-auto rounded-lg object-cover">
+                    <p class="font-semibold mt-2">Брутальный сет</p>
+                    <p class="text-lg font-bold">7 890 ₽</p>
+                    <button class="w-full bg-orange-500 text-white py-2 rounded-lg mt-2">Добавить в корзину</button>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2">
+                    <img src="./Фото.png" alt="Related Product" class="w-full h-auto rounded-lg object-cover">
+                    <p class="font-semibold mt-2">Брутальный сет</p>
+                    <p class="text-lg font-bold">12 890 ₽</p>
+                    <button class="w-full bg-orange-500 text-white py-2 rounded-lg mt-2">Добавить в корзину</button>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2">
+                    <img src="./Фото.png" alt="Related Product" class="w-full h-auto rounded-lg object-cover">
+                    <p class="font-semibold mt-2">Брутальный сет</p>
+                    <p class="text-lg font-bold">7 890 ₽</p>
+                    <button class="w-full bg-orange-500 text-white py-2 rounded-lg mt-2">Добавить в корзину</button>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2">
+                    <img src="./Фото.png" alt="Related Product" class="w-full h-auto rounded-lg object-cover">
+                    <p class="font-semibold mt-2">Брутальный сет</p>
+                    <p class="text-lg font-bold">12 890 ₽</p>
+                    <button class="w-full bg-orange-500 text-white py-2 rounded-lg mt-2">Добавить в корзину</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
